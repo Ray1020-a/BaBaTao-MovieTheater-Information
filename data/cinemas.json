@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "台北信義威秀影城",
+    "prices": { "full": 330, "early": 270, "concession": 310, "disability": 165 },
+    "info": { "address": "台北市信義區松壽路20號", "phone": "02-8780-5566", "website": "https://www.vscinemas.com.tw", "description": "位於信義商圈的核心地帶。" }
+  },
+  {
+    "id": 2,
+    "name": "國賓大戲院",
+    "prices": { "full": 310, "early": 250, "concession": 280, "disability": 155 },
+    "info": { "address": "台北市萬華區成都路88號", "phone": "02-2361-1223", "website": "https://www.ambassador.com.tw", "description": "西門町老字號影院。" }
+  },
+  {
+    "id": 3,
+    "name": "台中中友長春影城",
+    "prices": { "full": 290, "early": 230, "concession": 260, "disability": 145 },
+    "info": { "address": "台中市北區三民路三段161號", "phone": "04-2223-5330", "website": "https://www.vscinemas.com.tw", "description": "位於百貨內，便利性高。" }
+  }
+]
