@@ -29,45 +29,47 @@ export default function HowToBuyPage() {
             <h1 className="text-4xl font-black text-slate-800">舉例</h1>
             <p className="text-slate-500 mb-6 mt-2">台北京站威秀、欣欣秀泰、長春國賓</p>
         </header>
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="bg-indigo-600 text-white">
-                <th className="p-5 font-semibold">集團</th>
-                <th className="p-5 font-semibold">全票</th>
-                <th className="p-5 font-semibold">轉賣票</th>
-                <th className="p-5 font-semibold">團體票</th>
-                <th className="p-5 font-semibold">會員/儲值金</th>
-                <th className="p-5 font-semibold">信用卡合作</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100 font-medium text-slate-600">
-              <tr className="hover:bg-slate-50 transition-colors">
-                <td className="p-5 text-indigo-600 font-bold">威秀影城</td>
-                <td className="p-5 text-x">NT$360</td>
-                <td className="p-5 text-x">NT$260</td>
-                <td className="p-5 text-x">NT$260</td>
-                <td className="p-5 text-x">NT$300</td>
-                <td className="p-5 text-x">✅</td>
-              </tr>
-              <tr className="hover:bg-slate-50 transition-colors">
-                <td className="p-5 text-indigo-600 font-bold">秀泰影城</td>
-                <td className="p-5 text-x">NT$330</td>
-                <td className="p-5 text-x">NT$230</td>
-                <td className="p-5 text-x">NT$240</td>
-                <td className="p-5 text-x">N/A</td>
-                <td className="p-5 text-x">✅</td>
-              </tr>
-              <tr className="hover:bg-slate-50 transition-colors">
-                <td className="p-5 text-indigo-600 font-bold">國賓影城</td>
-                <td className="p-5 text-x">NT$320</td>
-                <td className="p-5 text-x">NT$235</td>
-                <td className="p-5 text-x">NT$230</td>
-                <td className="p-5 text-x">NT$270</td>
-                <td className="p-5 text-x">✅</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+            <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse min-w-[700px]">
+              <thead>
+                <tr className="bg-indigo-600 text-white">
+                  <th className="p-5 font-semibold">集團</th>
+                  <th className="p-5 font-semibold">全票</th>
+                  <th className="p-5 font-semibold">轉賣票</th>
+                  <th className="p-5 font-semibold">團體票</th>
+                  <th className="p-5 font-semibold">會員/儲值金</th>
+                  <th className="p-5 font-semibold">信用卡合作</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 font-medium text-slate-600">
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-5 text-indigo-600 font-bold">威秀影城</td>
+                  <td className="p-5 text-x">NT$360</td>
+                  <td className="p-5 text-x">NT$260</td>
+                  <td className="p-5 text-x">NT$260</td>
+                  <td className="p-5 text-x">NT$300</td>
+                  <td className="p-5 text-x text-center">✅</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-5 text-indigo-600 font-bold">秀泰影城</td>
+                  <td className="p-5 text-x">NT$330</td>
+                  <td className="p-5 text-x">NT$230</td>
+                  <td className="p-5 text-x">NT$240</td>
+                  <td className="p-5 text-x">N/A</td>
+                  <td className="p-5 text-x text-center">✅</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-5 text-indigo-600 font-bold">國賓影城</td>
+                  <td className="p-5 text-x">NT$320</td>
+                  <td className="p-5 text-x">NT$235</td>
+                  <td className="p-5 text-x">NT$230</td>
+                  <td className="p-5 text-x">NT$270</td>
+                  <td className="p-5 text-x text-center">✅</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
     </div>
   );
