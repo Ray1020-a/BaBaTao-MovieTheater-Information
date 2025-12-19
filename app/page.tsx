@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from 'react';
-import { X, Info, ExternalLink, Phone, MapPin, ChevronUp, ChevronDown, ChevronsUpDown } from 'lucide-react';
+import { X, Info, ExternalLink, Phone, MapPin, ChevronUp, ChevronDown, ChevronsUpDown, Tv } from 'lucide-react';
 import cinemaDataRaw from '@/data/cinemas.json';
 import Link from 'next/link';
 
@@ -17,8 +17,8 @@ interface Cinema {
   };
   info: {
     address: string;
-    phone: string;
-    website: string;
+    type: string;
+    cinema: string;
     description: string;
   };
 }
@@ -161,20 +161,18 @@ export default function BabataoPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-emerald-50 p-2 rounded-lg text-emerald-600"><Phone size={20} /></div>
+                  <div className="bg-emerald-50 p-2 rounded-lg text-emerald-600"><Info size={20} /></div>
                   <div>
-                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">電話</p>
-                    <p className="text-slate-700">{selectedCinema.info.phone}</p>
+                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">影城類型</p>
+                    <p className="text-slate-700">{selectedCinema.info.type}</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-50 p-2 rounded-lg text-blue-600"><ExternalLink size={20} /></div>
+                  <div className="bg-emerald-50 p-2 rounded-lg text-emerald-600"><Tv size={20} /></div>
                   <div>
-                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">官方網站</p>
-                    <a href={selectedCinema.info.website} target="_blank" className="text-indigo-600 font-medium hover:underline break-all">
-                      瀏覽官網
-                    </a>
+                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">猛廳</p>
+                    <p className="text-slate-700">{selectedCinema.info.cinema}</p>
                   </div>
                 </div>
 

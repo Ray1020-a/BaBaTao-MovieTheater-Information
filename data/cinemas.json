@@ -1,20 +1,850 @@
 [
   {
     "id": 1,
-    "name": "台北信義威秀影城",
-    "prices": { "full": 330, "early": 270, "concession": 310, "disability": 165 },
-    "info": { "address": "台北市信義區松壽路20號", "phone": "02-8780-5566", "website": "https://www.vscinemas.com.tw", "description": "位於信義商圈的核心地帶。" }
+    "name": " 台北信義威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市信義區松壽路16、18號",
+      "type": "首輪、首輪藝術",
+      "cinema": "4DX、THX廳、金馬聯名影廳",
+      "description": "威秀集團"
+    }
   },
   {
     "id": 2,
-    "name": "國賓大戲院",
-    "prices": { "full": 310, "early": 250, "concession": 280, "disability": 155 },
-    "info": { "address": "台北市萬華區成都路88號", "phone": "02-2361-1223", "website": "https://www.ambassador.com.tw", "description": "西門町老字號影院。" }
+    "name": "MUVIE CINEMAS松仁威秀",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市信義區松仁路58號10樓（遠百信義A13）",
+      "type": "首輪",
+      "cinema": "全廳THX、TITAN巨幕廳、MUCROWN頂級影廳",
+      "description": "威秀集團"
+    }
   },
   {
     "id": 3,
-    "name": "台中中友長春影城",
-    "prices": { "full": 290, "early": 230, "concession": 260, "disability": 145 },
-    "info": { "address": "台中市北區三民路三段161號", "phone": "04-2223-5330", "website": "https://www.vscinemas.com.tw", "description": "位於百貨內，便利性高。" }
+    "name": "誠品電影院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市信義區菸廠路80號（誠品生活松菸店）地下2樓",
+      "type": "首輪、首輪藝術",
+      "cinema": "",
+      "description": "誠品集團"
+    }
+  },
+  {
+    "id": 4,
+    "name": "大巨蛋秀泰影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市信義區光復南路105號（遠東Garden City影城棟）2~4樓",
+      "type": "首輪",
+      "cinema": "Ultra 4DX、DVA、ScreenX、Remmi廳",
+      "description": "秀泰集團"
+    }
+  },
+  {
+    "id": 5,
+    "name": "喜樂時代影城南港店",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市南港區忠孝東路七段299號（CityLink南港店）C棟11至14樓",
+      "type": "首輪、首輪藝術",
+      "cinema": "",
+      "description": "喜樂時代集團"
+    }
+  },
+  {
+    "id": 6,
+    "name": "台北南港LaLaport威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市南港區經貿二路131號（LaLaport南港）5-6樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 7,
+    "name": "台北京站威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市大同區市民大道一段209號（台北京站大樓，與京站時尚廣場台北店共構）5至7樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 8,
+    "name": "新民生戲院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市松山區民生東路五段190號3樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 9,
+    "name": "總督影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市松山區長安東路二段219號3樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 10,
+    "name": "微風影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市松山區復興南路一段39號（微風廣場）8樓（與索尼影業共同經營）",
+      "type": "首輪",
+      "cinema": "",
+      "description": "微風集團"
+    }
+  },
+  {
+    "id": 11,
+    "name": "哈拉影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市內湖區康寧路三段72號（哈啦生活館）3-4樓",
+      "type": "首輪",
+      "cinema": "響震椅、FREELAX跨腳影廳、親子電影院",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 12,
+    "name": "國賓大戲院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區成都路88號",
+      "type": "首輪",
+      "cinema": "巨幕廳（Dolby Atmos）、D-BOX",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 13,
+    "name": "樂聲影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區武昌街二段85號",
+      "type": "首輪",
+      "cinema": "巨幕廳",
+      "description": "車庫娛樂集團"
+    }
+  },
+  {
+    "id": 14,
+    "name": "台北西門in89豪華數位影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區武昌街二段89號",
+      "type": "首輪",
+      "cinema": "LUXE A RealD Experience 影廳、Premium COACH廳（Dolby Atmos）",
+      "description": "in89集團"
+    }
+  },
+  {
+    "id": 15,
+    "name": "台北獅子林新光影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區西寧南路36號（獅子林商業大樓）4至5樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "新光集團"
+    }
+  },
+  {
+    "id": 16,
+    "name": "台北真善美劇院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區漢中街116號（新世界大樓）7樓",
+      "type": "首輪藝術",
+      "cinema": "",
+      "description": "中影集團"
+    }
+  },
+  {
+    "id": 17,
+    "name": "台北西門威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區漢中街52號8-11樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 18,
+    "name": "喜樂時代影城今日店",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市萬華區峨嵋街52號4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "喜樂時代集團"
+    }
+  },
+  {
+    "id": 19,
+    "name": "百老匯數位影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市文山區羅斯福路四段200號3至5樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "龍祥集團"
+    }
+  },
+  {
+    "id": 20,
+    "name": "光點華山電影館",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中正區八德路一段1號（華山文創園區中六電影館）",
+      "type": "首輪藝術",
+      "cinema": "",
+      "description": "光點生活集團"
+    }
+  },
+  {
+    "id": 21,
+    "name": "台北長春國賓影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中山區長春路176號（原長春戲院）",
+      "type": "首輪、首輪藝術",
+      "cinema": "",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 22,
+    "name": "台北欣欣秀泰影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中山區林森北路247號",
+      "type": "首輪",
+      "cinema": "ScreenX廳",
+      "description": "秀泰集團"
+    }
+  },
+  {
+    "id": 23,
+    "name": "光點台北",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中山區中山北路二段18號",
+      "type": "首輪藝術",
+      "cinema": "",
+      "description": "光點生活集團"
+    }
+  },
+  {
+    "id": 24,
+    "name": "美麗華大直影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中山區敬業三路22號（美麗華百樂園）6至9樓",
+      "type": "首輪",
+      "cinema": "IMAX、AURO11.1、Dolby Cinema",
+      "description": "美麗華集團"
+    }
+  },
+  {
+    "id": 25,
+    "name": "美麗新大直皇家影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中山區北安路780號（美麗新廣場大直館）B2",
+      "type": "首輪",
+      "cinema": "全院Royal Cinemas皇家影城",
+      "description": "美麗新集團"
+    }
+  },
+  {
+    "id": 26,
+    "name": "台北天母新光影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市士林區忠誠路二段202號（新光三越天母店B館）4樓",
+      "type": "首輪",
+      "cinema": "OSIM天王廳",
+      "description": "新光集團"
+    }
+  },
+  {
+    "id": 27,
+    "name": "景美佳佳戲院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市文山區羅斯福路六段403號4樓",
+      "type": "二輪",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 28,
+    "name": "中和環球威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "台北市中和區中山路三段122號（環球新北中和）4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 29,
+    "name": "喜樂時代影城永和店",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市永和區中山路一段238號（比漾廣場）4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "喜樂時代集團"
+    }
+  },
+  {
+    "id": 30,
+    "name": "鴻金寶麻吉影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市新莊區民安路188巷5號4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 31,
+    "name": "晶冠廣場國賓影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市新莊區五工路66號（新莊晶冠廣場）3、4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 32,
+    "name": "美麗新宏匯影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市新莊區新北大道四段3號（宏匯廣場）8至10樓",
+      "type": "首輪",
+      "cinema": "Royal Cinemas皇家影城",
+      "description": "美麗新集團"
+    }
+  },
+  {
+    "id": 33,
+    "name": "國家電影及視聽文化中心",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市新莊區文藝街2號",
+      "type": "影展",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 34,
+    "name": "天台影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市三重區重新路二段78號（天台廣場）4樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 35,
+    "name": "林口昕境國賓影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市林口區文化三路一段402巷2號（林口昕境廣場）4樓",
+      "type": "首輪",
+      "cinema": "AURO11.1、D-BOX座椅、Dolby Atmos",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 36,
+    "name": "林口MITSUI OUTLET PARK威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市林口區文化三路一段356號（MITSUI OUTLET PARK 林口）3樓",
+      "type": "首輪",
+      "cinema": "4DX、Mappa廳",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 37,
+    "name": "淡水禮萊國賓影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市淡水區中正路一段2號（淡水禮萊廣場）",
+      "type": "首輪",
+      "cinema": "",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 38,
+    "name": "板橋大遠百威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市板橋區新站路28號（板橋大遠百）10樓",
+      "type": "首輪",
+      "cinema": "IMAX",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 39,
+    "name": "府中15新北市紀錄片放映院",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市板橋區府中路15號B1",
+      "type": "首輪紀錄片",
+      "cinema": "",
+      "description": "新北市政府"
+    }
+  },
+  {
+    "id": 40,
+    "name": "樹林秀泰影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市樹林區樹新路40-6號（秀泰生活樹林店）8樓",
+      "type": "首輪",
+      "cinema": "ScreenX廳",
+      "description": "秀泰集團"
+    }
+  },
+  {
+    "id": 41,
+    "name": "土城秀泰影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市土城區學府路二段210號（日月光廣場 ）1樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "秀泰集團"
+    }
+  },
+  {
+    "id": 42,
+    "name": "新店裕隆城威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "新北市新店區中興路三段70號（裕隆城）6~7樓",
+      "type": "首輪",
+      "cinema": "IMAX",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 43,
+    "name": "桃園統領威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市桃園區中正路61號（統領廣場）9樓",
+      "type": "首輪",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 44,
+    "name": "桃園桃知道威秀影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市桃園區南平路301號（桃知道GELEVEN PLAZA）4樓",
+      "type": "首輪、首輪藝術",
+      "cinema": "",
+      "description": "威秀集團"
+    }
+  },
+  {
+    "id": 45,
+    "name": "桃園站前in89統領影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市桃園區中正路56號",
+      "type": "首輪",
+      "cinema": "COACH 沙發座椅",
+      "description": "in89集團"
+    }
+  },
+  {
+    "id": 46,
+    "name": "八德置地國賓影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市八德區介壽路一段728號（置地生活廣場）3樓",
+      "type": "首輪",
+      "cinema": "D-BOX座椅、Dolby Atmos",
+      "description": "國賓集團"
+    }
+  },
+  {
+    "id": 47,
+    "name": "美麗新台茂影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市蘆竹區南崁路一段112號（台茂購物中心）7樓",
+      "type": "首輪",
+      "cinema": "IMAX、Royal Cinemas皇家影城",
+      "description": "美麗新集團"
+    }
+  },
+  {
+    "id": 48,
+    "name": "桃園青埔新光影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市中壢區春德路107號（置地廣場·桃園）3至5樓",
+      "type": "首輪",
+      "cinema": "Dolby Cinema、LUXE + Dolby ATMOS、ACG動漫劇場、Sealy 席伊麗廳、OSIM天王廳",
+      "description": "新光集團"
+    }
+  },
+  {
+    "id": 49,
+    "name": "喜樂時代影城桃園A19店\n（將於2026年1月6日結束營業）",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園市中壢區高鐵南路二段352號（環球購物中心）4樓",
+      "type": "首輪",
+      "cinema": "設有16間影廳",
+      "description": "喜樂時代集團"
+    }
+  },
+  {
+    "id": 50,
+    "name": "星橋國際影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "中壢區中園路二段501號（大江國際購物中心）5樓",
+      "type": "首輪",
+      "cinema": "設有20間影廳",
+      "description": "VUE集團"
+    }
+  },
+  {
+    "id": 51,
+    "name": "威尼斯影城",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "中壢區九和一街48號3樓",
+      "type": "首輪",
+      "cinema": "Dolby Atmos、\n水影威尼斯",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 52,
+    "name": "中壢光影電影館",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "中壢區龍清街116巷31號",
+      "type": "影展",
+      "cinema": "沙發座椅",
+      "description": "集團"
+    }
+  },
+  {
+    "id": 53,
+    "name": "桃園光影文化館",
+    "prices": {
+      "full": 330,
+      "early": 270,
+      "concession": 310,
+      "disability": 165
+    },
+    "info": {
+      "address": "桃園區埔新路12號",
+      "type": "影展",
+      "cinema": "沙發座椅",
+      "description": "集團"
+    }
   }
 ]
