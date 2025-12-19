@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 
 export const metadata = {
   title: 'Babatao - 北北桃影院票價整理',
-  description: '專業整理台北、新北、桃園影院票價與購票攻略',
+  description: '整理台北、新北、桃園影院票價與購票攻略',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
