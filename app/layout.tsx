@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: '%s | Babatao'
   },
   description: '整理台北、新北、桃園影院票價與購票攻略',
-  keywords: ['電影票價', '台北影院', '威秀票價', '便宜電影票', '信用卡電影優惠', '北北桃影城'],
+  keywords: ['電影票價', '台北電影院', '便宜電影票', '信用卡電影優惠', '北北桃電影城'],
   openGraph: {
     title: 'Babatao - 北北桃影院票價比價',
     description: '想省錢看電影？快來這裡吧！',
